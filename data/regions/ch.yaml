@@ -1,0 +1,34 @@
+# Switzerland. All entries are draft until checked against a cited source.
+region: CH
+name: { en: Switzerland, de: Schweiz, fr: Suisse, it: Svizzera }
+subdivisions: [AG, AI, AR, BE, BL, BS, FR, GE, GL, GR, JU, LU, NE, NW, OW, SG, SH, SO, SZ, TG, TI, UR, VD, VS, ZG, ZH]
+
+sources:
+  swiss-farmers: https://www.swiss-farmers.ch/seasonal-calendar/
+  wwf-ch: https://www.wwf.ch/sites/default/files/doc-2017-08/2014-01-saisontabelle.pdf
+  ebenrain: https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/ebenrain/ernaehrung/wissen/saisonkalender
+
+items:
+  asparagus:
+    field: [4, 5, 6]
+    sources: [swiss-farmers]
+    status: draft
+  strawberry:
+    field: [5, 6, 7]
+    sources: [swiss-farmers]
+    status: draft
+  apple:
+    field: [8, 9, 10]
+    storage: [11, 12, 1, 2, 3, 4, 5, 6]
+    sources: [swiss-farmers]
+    status: draft
+  tomato:
+    field: [7, 8, 9]
+    heated_greenhouse: [3, 4, 5, 6, 10, 11]
+    sources: [wwf-ch]
+    status: draft
+  carrot:
+    field: [6, 7, 8, 9, 10]
+    storage: [11, 12, 1, 2, 3, 4, 5]
+    sources: [swiss-farmers]
+    status: draft

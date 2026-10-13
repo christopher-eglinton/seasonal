@@ -1,0 +1,16 @@
+# Canonical produce list. id is stable; never rename an id.
+- id: asparagus
+  names: { en: Asparagus, de: Spargel, fr: Asperge, it: Asparago }
+  plu: [4080]
+- id: strawberry
+  names: { en: Strawberry, de: Erdbeere, fr: Fraise, it: Fragola }
+  plu: [3373]
+- id: apple
+  names: { en: Apple, de: Apfel, fr: Pomme, it: Mela }
+  plu: []   # varies by variety
+- id: tomato
+  names: { en: Tomato, de: Tomate, fr: Tomate, it: Pomodoro }
+  plu: [4664]
+- id: carrot
+  names: { en: Carrot, de: Karotte, fr: Carotte, it: Carota }
+  plu: [4562]
